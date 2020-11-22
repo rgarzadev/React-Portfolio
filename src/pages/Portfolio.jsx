@@ -1,18 +1,17 @@
 import React, {useState} from 'react'
 import { Container } from "react-bootstrap"
-import portfolioData from "../data/portfolio-data"
-import PortfolioItem from "../components/PortfolioItem/PortfolioItem"
+import projectData from "../data/project-data"
+import ProjectCard from "../components/ProjectCard/ProjectCard"
 
 
-const Portfolio = (props) => {
-  const [projects, setProjects] = useState(portfolioData);
+const Project = (props) => {
+  const [projects, setProjects] = useState(projectData);
     return (
         <Container>
             <div class="container">
-
               <div class="row">
                 {projects.map((project, index) =>(
-                  <PortfolioItem project={project} key={index}/>
+                  <ProjectCard project={project} key={index}/>
                 ))}
               </div>
             </div>
@@ -20,4 +19,4 @@ const Portfolio = (props) => {
     )
 }
 
-export default Portfolio
+export default Project

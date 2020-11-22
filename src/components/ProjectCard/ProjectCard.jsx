@@ -1,7 +1,6 @@
-import React from 'react'
-
-const PortfolioItem = (props) => {
+const ProjectCard = (props) => {
     const { project } = props
+    
     return (
         <div className="col portfolio-card m-2">
             <a href={project.url} target="_blank">
@@ -15,4 +14,4 @@ const PortfolioItem = (props) => {
     )
 }
 
-export default PortfolioItem
+export default ProjectCard

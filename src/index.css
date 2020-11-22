@@ -1,23 +1,20 @@
-#profile-img {
-    width: 200px;
-    min-width: 200px;
+.profile-img {
     max-width: 200px;
-    min-height: 200px;
     max-height: 200px;
 }
 
-#home-container {
+.profile-container {
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-#home-text {
+.profile-text {
     padding: 20px;
 }
 
-.skill-img {
-    width: 100px;
+.skill-icon {
+    width: 80px;
     padding: 10px;
 }
 
@@ -27,12 +24,8 @@
 }
 
 .portfolio-img {
-    /* width: 200px; */
-    /* min-width: 200px; */
     max-width: 200px;
     padding-bottom: 6px;
-    /* min-height: 200px; */
-    /* max-height: 200px; */
 }
 
 footer {

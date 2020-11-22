@@ -1,4 +1,4 @@
-const portfolioData = [
+const projectData = [
     {
         url: "https://polar-escarpment-17006.herokuapp.com",
         img: "https://github.com/nmckenzie1/pokeMemory/blob/main/public/screenshots/desktop-screen.PNG?raw=true",
@@ -29,4 +29,4 @@ const portfolioData = [
     }
 ]
 
-export default portfolioData;
+export default projectData;
