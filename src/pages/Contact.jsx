@@ -18,7 +18,6 @@ const Contact = (props) => {
                 collaboration possibilities.
                 I also enjoy connecting others, so if I may be of assistance to you in any way or can make an
                 introduction to help you in your networking, please feel free to reach out!</p>
-                <hr class="hr-size"/>
             </div>
           </div>
         </div>

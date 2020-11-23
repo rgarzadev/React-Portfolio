@@ -1,3 +1,31 @@
+body {
+    background-color: #ededed;
+}
+
+nav a:hover{
+    color: palegreen !important;
+}
+
+.hr-section {
+    width: 80%;
+    /* height: 4px; */
+    margin: 20px auto;
+    border: 1px solid palegreen;
+    border-radius: 8px;
+}
+
+.active.navbar-brand {
+    color: palegreen !important;
+}
+
+.navbar-dark .navbar-brand {
+    color: palegreen;
+}
+
+.full-stop {
+    color: palegreen;
+}
+
 .profile-img {
     max-width: 200px;
     max-height: 200px;
@@ -40,6 +68,16 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.profile-container {
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
     padding: 8px;
     border: 1px solid lightgray;
     border-radius: 4px;

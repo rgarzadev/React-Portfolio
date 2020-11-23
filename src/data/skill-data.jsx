@@ -1,5 +1,9 @@
 const skillData = [
     {
+        name: "VS Code",
+        url: "vscode.png"
+    },
+    {
         name: "React",
         url: "react-original-wordmark.svg"
     },
@@ -24,12 +28,12 @@ const skillData = [
         url: "mongodb-original-wordmark.svg"
     },
     {
-        name: "Mongoose",
-        url: "mongoose.png"
-    },
-    {
         name: "MySQL",
         url: "mysql-original-wordmark.svg"
+    },
+    {
+        name: "Mongoose",
+        url: "mongoose.png"
     },
     {
         name: "Sequelize",
@@ -68,12 +72,12 @@ const skillData = [
         url: "handlebars-original-wordmark.svg"
     },
     {
-        name: "Adobe CC",
-        url: "adobe-cc.png"
-    },
-    {
         name: "Wordpress",
         url: "wordpress-multisite.png"
+    },
+    {
+        name: "Adobe CC",
+        url: "adobe-cc.png"
     },
     {
         name: "Windows 10",

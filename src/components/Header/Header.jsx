@@ -14,6 +14,9 @@ const Header = (props) => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
+                        <LinkContainer to="/">
+                                <Nav.Link>Home</Nav.Link>
+                            </LinkContainer>
                             <LinkContainer to="/portfolio">
                                 <Nav.Link>Portfolio</Nav.Link>
                             </LinkContainer>
