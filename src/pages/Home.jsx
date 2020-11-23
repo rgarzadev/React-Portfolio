@@ -9,11 +9,10 @@ const Home = (props) => {
 
     return (
         <Container>
+            
             <div className="profile-container">
 
-                <div className="profile-img">
-                    <img className="profile-img" src="img/profile.jpg" alt="Ryan Garza"/>
-                </div>
+                <img className="profile-img" src="img/profile.jpg" alt="Ryan Garza"/>
 
                 <div className="profile-text">
                     <h1>I'm Ryan Garza.</h1>
@@ -37,25 +36,9 @@ const Home = (props) => {
                         )
                     })}
 
-                {/* <img className="skill-img center" src="img\icons\react-original-wordmark.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\javascript-original.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\jquery-original-wordmark.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\nodejs-original-wordmark.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\npm-original-wordmark.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\express-original-wordmark.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\mongodb-original-wordmark.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\mysql-original-wordmark.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\sequelize-original-wordmark.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\git-original-wordmark.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\github-original-wordmark.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\heroku-original-wordmark.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\css3-original-wordmark.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\html5-original-wordmark.svg" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\adobe cc.png" alt="javascript"/>
-                <img className="skill-img center" src="img\icons\wordpress-original.svg" alt="javascript"/> */}
                 </div>
             
-            </div>  
+            </div>
 
         </Container>
 
