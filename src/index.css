@@ -27,12 +27,18 @@ nav a:hover{
 }
 
 .profile-img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 90%;
+    /* max-height: 90%; */
+}
+
+.profile-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
 }
 
 .profile-container {
-    display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -46,12 +52,13 @@ nav a:hover{
     padding: 10px;
 }
 
-.skills {
+.skills, .contact-container {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
-.portfolio-img {
+.project-img {
     max-width: 200px;
     padding-bottom: 6px;
 }
@@ -63,7 +70,9 @@ footer {
 }
 
 /* Portfoio Item */
-.portfolio-card, .skill-card {
+
+.project-card,
+.skill-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,20 +82,33 @@ footer {
     border-radius: 4px;
 }
 
-.profile-container {
-    display: flex;
-    /* flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+.profile-container,
+.skills {
     padding: 8px;
     border: 1px solid lightgray;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.portfolio-card a, p {
+.project-card a, .project-p {
     text-align: center;
 }
 
-.skill-card p {
+.skill-card {
     text-align: center;
+}
+
+.project-card {
+    margin: 4px;
+}
+
+.portfolio-header,
+.contact-container {
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
 }

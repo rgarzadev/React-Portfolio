@@ -8,6 +8,10 @@ const skillData = [
         url: "react-original-wordmark.svg"
     },
     {
+        name: "Bootstrap",
+        url: "bootstrap.png"
+    },
+    {
         name: "Javascript",
         url: "javascript-original.svg"
     },
@@ -24,24 +28,28 @@ const skillData = [
         url: "express-original-wordmark.svg"
     },
     {
-        name: "MongoDB",
-        url: "mongodb-original-wordmark.svg"
+        name: "Git",
+        url: "git-original-wordmark.svg"
     },
     {
-        name: "MySQL",
-        url: "mysql-original-wordmark.svg"
+        name: "MongoDB",
+        url: "mongodb-original-wordmark.svg"
     },
     {
         name: "Mongoose",
         url: "mongoose.png"
     },
     {
+        name: "MySQL",
+        url: "mysql-original-wordmark.svg"
+    },
+    {
         name: "Sequelize",
         url: "sequelize-original-wordmark.svg"
     },
     {
-        name: "Git",
-        url: "git-original-wordmark.svg"
+        name: "NPM",
+        url: "npm-original-wordmark.svg"
     },
     {
         name: "Github",
@@ -50,14 +58,6 @@ const skillData = [
     {
         name: "Heroku",
         url: "heroku-original-wordmark.svg"
-    },
-    {
-        name: "NPM",
-        url: "npm-original-wordmark.svg"
-    },
-    {
-        name: "Bootstrap",
-        url: "bootstrap.png"
     },
     {
         name: "CSS3",
