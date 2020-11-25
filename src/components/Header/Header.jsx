@@ -25,6 +25,8 @@ const Header = (props) => {
                                 <Nav.Link>Portfolio</Nav.Link>
                             </LinkContainer>
 
+                            <Nav.Link href="https://github.com/rgarzadev" target="_blank">Github</Nav.Link>
+
                             <Nav.Link href="#contact">Contact</Nav.Link>
 
                             <Nav.Link href="https://drive.google.com/file/d/17X8VpFT-gMVh2KuuQ4WFPoS1DXScLquS/view?usp=sharing" target="_blank">Resume</Nav.Link>
