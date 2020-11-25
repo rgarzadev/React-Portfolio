@@ -1,3 +1,5 @@
+/* elements */
+
 body {
     background-color: #ededed;
 }
@@ -10,13 +12,14 @@ h2 {
     margin-left: 8px;
 }
 
-.hr-section {
-    width: 80%;
-    /* height: 4px; */
-    margin: 20px auto;
-    border: 1px solid palegreen;
-    border-radius: 8px;
+footer {
+    text-align: center;
+    background-color: #343a40;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
+
+/* classes */
 
 .active.navbar-brand {
     color: palegreen !important;
@@ -32,7 +35,6 @@ h2 {
 
 .profile-img {
     max-width: 90%;
-    /* max-height: 90%; */
 }
 
 .profile-img-div {
@@ -56,7 +58,8 @@ h2 {
     padding: 10px;
 }
 
-.skills, .contact-container {
+.skills,
+.contact-container {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
@@ -66,14 +69,6 @@ h2 {
     max-width: 200px;
     padding-bottom: 6px;
 }
-
-footer {
-    text-align: center;
-    background-color: #343a40;
-    padding: 20px;
-}
-
-/* Portfoio Item */
 
 .project-card,
 .skill-card {
@@ -132,7 +127,22 @@ footer {
 .copyright {
     color:  #343a40;
     background-color: palegreen;
-    margin-top: 20px;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+.contact-me {
+    color: palegreen;
+    margin-bottom: 30px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: palegreen;
+    text-decoration: none;
 }
 
 /* @media only screen and (max-width: 700px ) {

@@ -49,7 +49,7 @@ const projectData = [
     {
         url: "https://github.com/rgarzadev/Team-Generator",
         img: "team-generator-screen.PNG",
-        title: "Node CLI Team Roster Generator",
+        title: "Node CLI Roster Generator",
         description: "The goal of this project was to create a Node CLI Engineer team generator that outputs an HTML file based on user command line inputs."        
     },
     {
