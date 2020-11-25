@@ -167,6 +167,8 @@ nav a:hover {
     color:  #343a40;
     background-color: palegreen;
     text-align: center;
+    padding-bottom: 6px;
+    padding-top: 6px;
 }
 
 .full-stop {
