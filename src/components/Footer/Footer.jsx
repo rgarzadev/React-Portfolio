@@ -5,7 +5,7 @@ const Footer = (props) => {
   
   <div>
   <footer>
-    <p className="contact-me">CONTACT AND FOLLOW ME:</p>
+    <p className="contact-me">CONTACT AND FOLLOW ME<span class="full-stop-white">:</span></p>
     <div className="container">
       <div className="row footer-row">
         <div className="col-4 linkedin-link">

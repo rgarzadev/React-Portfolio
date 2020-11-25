@@ -1,11 +1,16 @@
 /* elements */
 
-body {
-    background-color: #ededed;
+a {
+    color: white;
 }
 
-nav a:hover{
-    color: palegreen !important;
+a:hover {
+    color: palegreen;
+    text-decoration: none;
+}
+
+body {
+    background-color: #ededed;
 }
 
 h2 {
@@ -13,15 +18,21 @@ h2 {
 }
 
 footer {
-    text-align: center;
     background-color: #343a40;
     padding-top: 20px;
     padding-bottom: 40px;
+    text-align: center;
 }
 
 /* classes */
 
+/* header */
+
 .active.navbar-brand {
+    color: palegreen !important;
+}
+
+nav a:hover {
     color: palegreen !important;
 }
 
@@ -29,12 +40,17 @@ footer {
     color: palegreen;
 }
 
-.full-stop {
-    color: palegreen;
-}
+/* profile section */
 
-.profile-img {
-    max-width: 90%;
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
 }
 
 .profile-img-div {
@@ -44,13 +60,36 @@ footer {
     padding: 0px;
 }
 
-.profile-container {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.profile-img {
+    max-width: 90%;
 }
 
 .profile-text {
     padding: 20px;
+}
+
+/* skills section */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    text-align: center;
 }
 
 .skill-icon {
@@ -58,20 +97,21 @@ footer {
     padding: 10px;
 }
 
-.skills,
-.contact-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+/* projects section */
+
+.portfolio-header {
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
 }
 
-.project-img {
-    max-width: 200px;
-    padding-bottom: 6px;
+.project-container {
+    margin-bottom: 10px;
 }
 
-.project-card,
-.skill-card {
+.project-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,25 +121,8 @@ footer {
     border-radius: 4px;
 }
 
-.profile-container,
-.skills {
-    padding: 8px;
-    border: 1px solid lightgray;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-container {
-    margin-bottom: 10px;
-}
-
-.project-card a, .project-p {
-    text-align: center;
-}
-
-.skill-card {
+.project-card a,
+.project-p {
     text-align: center;
 }
 
@@ -107,14 +130,30 @@ footer {
     margin: 4px;
 }
 
-.portfolio-header,
+.project-img {
+    max-width: 200px;
+    padding-bottom: 6px;
+}
+
+/* contact section */
+
 .contact-container {
+    display: flex;
+    flex-wrap: wrap;
     padding: 8px;
     margin-top: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     border: 1px solid lightgray;
     border-radius: 4px;
+
 }
+
+.contact-me {
+    color: palegreen;
+    margin-bottom: 30px;
+}
+
+/* other */
 
 .linkedin-link {
     text-align: right;
@@ -128,25 +167,12 @@ footer {
     color:  #343a40;
     background-color: palegreen;
     text-align: center;
-    /* margin-top: 20px; */
 }
 
-.contact-me {
+.full-stop {
     color: palegreen;
-    margin-bottom: 30px;
 }
 
-a {
+.full-stop-white {
     color: white;
 }
-
-a:hover {
-    color: palegreen;
-    text-decoration: none;
-}
-
-/* @media only screen and (max-width: 700px ) {
-    .profile-img {
-      display: none;
-    }      
-} */
