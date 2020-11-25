@@ -41,6 +41,9 @@ const Home = (props) => {
             
             </div>
 
+
+            <a name="contact"></a>
+
             <h2>Contact me<span class="full-stop">:</span></h2>
 
             <div className="contact-container" id="contact">

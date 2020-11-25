@@ -8,10 +8,6 @@ const skillData = [
         url: "react-original-wordmark.svg"
     },
     {
-        name: "Bootstrap",
-        url: "bootstrap.png"
-    },
-    {
         name: "Javascript",
         url: "javascript-original.svg"
     },
@@ -20,16 +16,20 @@ const skillData = [
         url: "jquery-original-wordmark.svg"
     },
     {
+        name: "Bootstrap",
+        url: "bootstrap.png"
+    },
+    {
+        name: "Material UI",
+        url: "material-ui.png"
+    },
+    {
         name: "Node",
         url: "nodejs-original-wordmark.svg"
     },
     {
         name: "Express",
         url: "express-original-wordmark.svg"
-    },
-    {
-        name: "Git",
-        url: "git-original-wordmark.svg"
     },
     {
         name: "MongoDB",
@@ -46,6 +46,10 @@ const skillData = [
     {
         name: "Sequelize",
         url: "sequelize-original-wordmark.svg"
+    },
+    {
+        name: "Git",
+        url: "git-original-wordmark.svg"
     },
     {
         name: "NPM",
@@ -72,6 +76,18 @@ const skillData = [
         url: "handlebars-original-wordmark.svg"
     },
     {
+        name: "Balsamiq",
+        url: "balsamiq.png"
+    },
+    {
+        name: "Agile Dev",
+        url: "agile.png"
+    },
+    {
+        name: "Jest",
+        url: "jestlogo.png"
+    },
+    {
         name: "Wordpress",
         url: "wordpress-multisite.png"
     },
@@ -95,8 +111,6 @@ const skillData = [
         name: "Acrobat DC",
         url: "acrobat.png"
     },
-
-
 ]
 
 export default skillData;

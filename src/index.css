@@ -6,6 +6,10 @@ nav a:hover{
     color: palegreen !important;
 }
 
+h2 {
+    margin-left: 8px;
+}
+
 .hr-section {
     width: 80%;
     /* height: 4px; */
@@ -92,6 +96,10 @@ footer {
     align-items: center;
 }
 
+.project-container {
+    margin-bottom: 10px;
+}
+
 .project-card a, .project-p {
     text-align: center;
 }
@@ -112,3 +120,23 @@ footer {
     border: 1px solid lightgray;
     border-radius: 4px;
 }
+
+.linkedin-link {
+    text-align: right;
+}
+
+.email-link {
+    text-align: left;
+}
+
+.copyright {
+    color:  #343a40;
+    background-color: palegreen;
+    margin-top: 20px;
+}
+
+/* @media only screen and (max-width: 700px ) {
+    .profile-img {
+      display: none;
+    }      
+} */
