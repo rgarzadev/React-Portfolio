@@ -3,12 +3,11 @@ const ProjectCard = (props) => {
     
     return (
         <div className="col project-card">
-            <a href={project.url} target="_blank">
+            <a href={project.url} target="_blank" rel="noreferrer">
                 <img className="project-img" src={`img/project-img/${project.img}`} alt="project"/>   
-            </a>
-            <a href={project.url} target="_blank">
                 <h4>{project.title}</h4>
             </a>
+            <a href={project.repository} target="_blank" rel="noreferrer">Github Repository</a>
             <p className="project-p">{project.description}</p>
         </div>
     )
