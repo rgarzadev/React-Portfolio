@@ -15,12 +15,12 @@ const Footer = (props) => {
             <a href="https://github.com/rgarzadev">GITHUB</a>
           </div>
           <div className="col-4 email-link">
-            <a href="mailto:ryangarza@live.com">EMAIL</a>
+            <a href="mailto:ryan@rgarza.co">EMAIL</a>
           </div>
         </div>
       </div>
     </footer>
-    <div className="col copyright">&copy;2020 RYAN GARZA DEV</div>
+    <div className="col copyright">&copy;2021 RYAN GARZA DEV</div>
   </div>
   
     )

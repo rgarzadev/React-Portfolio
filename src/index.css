@@ -82,6 +82,7 @@ nav a:hover {
 }
 
 .skill-card {
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -100,6 +101,7 @@ nav a:hover {
 /* projects section */
 
 .portfolio-header {
+    background-color: whitesmoke;
     padding: 8px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -112,6 +114,7 @@ nav a:hover {
 }
 
 .project-card {
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,15 +122,12 @@ nav a:hover {
     padding: 8px;
     border: 1px solid lightgray;
     border-radius: 4px;
+    margin: 4px;
 }
 
 .project-card a,
 .project-p {
     text-align: center;
-}
-
-.project-card {
-    margin: 4px;
 }
 
 .project-img {
@@ -138,6 +138,7 @@ nav a:hover {
 /* contact section */
 
 .contact-container {
+    background-color: whitesmoke;
     display: flex;
     flex-wrap: wrap;
     padding: 8px;
@@ -177,4 +178,14 @@ nav a:hover {
 
 .full-stop-white {
     color: white;
+}
+
+/*portfolio section*/
+
+.github-repo-links a {
+    color: black;
+}
+.github-repo-links a:hover {
+    color: hotpink;
+    text-decoration: none;
 }

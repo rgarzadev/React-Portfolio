@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Container } from "react-bootstrap"
+import Contact from '../components/Contact/Contact';
 import Skillcard from "../components/SkillCard/SkillCard";
 import skillData from "../data/skill-data";
 
@@ -41,19 +42,9 @@ const Home = (props) => {
 
             </div>
 
-
             <a name="contact"></a>
 
-            <h2>Contact me<span class="full-stop">:</span></h2>
-
-            <div className="contact-container" id="contact">
-
-                <p>Thank you for visiting my portfolio site. Please contact me by using one of the links below.
-                I'm always interested in discussing new and exciting opportunities. I also enjoy connecting
-                others, so if I can be of assistance to you in your networking in any way, please feel free to reach out!
-                </p>
-
-            </div>
+            <Contact />
 
         </Container>
 
