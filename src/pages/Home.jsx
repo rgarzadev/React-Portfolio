@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { Container } from "react-bootstrap"
-import Contact from '../components/Contact/Contact';
+import Contact from '../components/Contact';
 import Skillcard from "../components/SkillCard/SkillCard";
 import skillData from "../data/skill-data";
 
 const Home = (props) => {
-    const [skills, setSkills] = useState(skillData);
+    const [skills] = useState(skillData);
     return (
         <Container>
             <div className="profile-container row">

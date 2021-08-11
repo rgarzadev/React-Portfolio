@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Container } from "react-bootstrap"
 import projectData from "../data/project-data"
 import ProjectCard from "../components/ProjectCard/ProjectCard"
-import Contact from '../components/Contact/Contact'
+import Contact from '../components/Contact'
 
 const Project = (props) => {
   const [projects, setProjects] = useState(projectData);
@@ -18,7 +18,7 @@ const Project = (props) => {
 
       <div className="container project-container">
         <div class="row">
-          {projects.map((project, index) => (
+          {projectData.map((project, index) => (
             <ProjectCard project={project} key={index} />
           ))}
         </div>
