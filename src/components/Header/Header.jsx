@@ -29,7 +29,7 @@ const Header = (props) => {
 
                             <Nav.Link href="#contact">Contact</Nav.Link>
 
-                            <Nav.Link href="https://drive.google.com/file/d/1H_7MvtoqrryUatnUKCr5OcO97v2Z5jcg/view?usp=sharing" target="_blank">Web Resume</Nav.Link>
+                            <Nav.Link href="https://drive.google.com/file/d/1mK7us3XVysxnDcAHZsIlty6CP_u9Kgyo/view?usp=sharing" target="_blank">Web Resume</Nav.Link>
 
                             <Nav.Link href="https://drive.google.com/file/d/1Z3NPiJTNL9lP144yf-yF_s2WEH3YaaXM/view?usp=sharing" target="_blank">Text Resume</Nav.Link>
                             
